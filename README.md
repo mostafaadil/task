@@ -1,1 +1,2 @@
-# task
+# I used  Repository pattern for crud operations,  The idea is that the Repository hides how storage is implemented and provides a clean interface that allows fast flexible access to the data.
+# I used single ton pattern it's to ensure that there is always only one active connection to your local Storage." I think that would be better stated as to ensure each CLIENT has only one active connection to local Storage. The reason why this is incredibly important is because you want to prevent deadlocks. 
